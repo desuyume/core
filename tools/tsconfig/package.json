@@ -1,0 +1,24 @@
+{
+	"name": "@desuyume/tsconfig",
+	"version": "1.0.0",
+	"keywords": [
+		"tsconfig"
+	],
+	"author": {
+		"name": "desuyume",
+		"url": "https://github.com/desuyume"
+	},
+	"homepage": "https://github.com/desuyume/core",
+	"repository": {
+		"url": "https://github.com/desuyume/core"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"tsconfig.react.json"
+	],
+	"dependencies": {
+		"typescript": "^5.5.4"
+	}
+}

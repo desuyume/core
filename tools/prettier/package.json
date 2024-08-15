@@ -1,0 +1,31 @@
+{
+  "name": "@desuyume/prettier",
+  "version": "1.0.0",
+  "keywords": [
+    "prettier"
+  ],
+  "author": {
+    "name": "desuyume",
+    "url": "https://github.com/desuyume"
+  },
+  "homepage": "https://github.com/desuyume/core",
+  "repository": {
+    "url": "https://github.com/desuyume/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\""
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3"
+  }
+}
