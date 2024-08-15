@@ -1,17 +1,19 @@
 {
   "name": "@desuyume/eslint",
+  "description": "eslint config",
   "type": "module",
   "version": "1.0.0",
+  "license": "ISC",
   "keywords": [
     "eslint"
   ],
-  "author": {
-    "name": "desuyume",
-    "url": "https://github.com/desuyume"
-  },
+  "author": "desuyume (https://github.com/desuyume)",
   "homepage": "https://github.com/desuyume/core",
   "repository": {
-    "url": "https://github.com/desuyume/core"
+    "url": "git+https://github.com/desuyume/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desuyume/core/issues"
   },
   "publishConfig": {
     "access": "public"

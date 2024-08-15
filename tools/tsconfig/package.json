@@ -1,24 +1,26 @@
 {
-	"name": "@desuyume/tsconfig",
-	"version": "1.0.0",
-	"keywords": [
-		"tsconfig"
-	],
-	"author": {
-		"name": "desuyume",
-		"url": "https://github.com/desuyume"
-	},
-	"homepage": "https://github.com/desuyume/core",
-	"repository": {
-		"url": "https://github.com/desuyume/core"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"files": [
-		"tsconfig.react.json"
-	],
-	"dependencies": {
-		"typescript": "^5.5.4"
-	}
+  "name": "@desuyume/tsconfig",
+  "description": "tsconfig",
+  "version": "1.0.0",
+  "license": "ISC",
+  "keywords": [
+    "tsconfig"
+  ],
+  "author": "desuyume (https://github.com/desuyume)",
+  "homepage": "https://github.com/desuyume/core",
+  "repository": {
+    "url": "git+https://github.com/desuyume/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desuyume/core/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "tsconfig.react.json"
+  ],
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
 }
